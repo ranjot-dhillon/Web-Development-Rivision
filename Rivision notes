@@ -1,0 +1,26 @@
+HTML code  is divide in two sub parts 
+1-> HEad 
+2->Body part
+
+every tag had its own imporatnce and meaning
+
+HEADING TAG
+h1 is related to heading that is more important and h2 is sub heading.
+
+ELEMENT 
+
+in Html tag with its content is called element. (h1) is tag name.
+
+Atrribute 
+Propeties of element is called attribute.
+
+ANCHOR Tag
+
+for refrencing to other webpage
+ <a href="www.google.com">Google</a>
+a: is shortcut for diffentent tags.
+
+p> for paragraph tag.
+
+we can < pre >  tag for asit is prinitng in our web page.
+
