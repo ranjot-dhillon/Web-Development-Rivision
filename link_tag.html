@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link tag</title>
+</head>
+<body>
+    <h1>Thia is link tag</h1>
+    <!-- To go to different section of same page -->
+    <a href="#section2">section2</a>
+
+    <a href="http://google.com">google</a>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis architecto nostrum amet dolorum tenetur earum dolorem quos consectetur excepturi facere.</p>
+
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero ex dolores corrupti commodi porro autem est. Nam, eaque eos!</p>
+
+    <!-- image Tag  to insert image in web page-->
+
+     <img src="refer.jpg" width="600px" alt="no found">
+     <img src="refer.jpg" width="600px" alt="no found">
+     <img src="refer.jpg" width="600px" alt="no found" id="section2">
+     
+     <!-- We use picture tag for insert the images that we can use in different fromate like in mobile etc and here we use source tag for different devices  -->
+
+     <picture>
+        <source media="(min-width:300px)" srcset="refer.jpg"/>
+        <source media="(min-width:600px)" srcset="refer.jpg"/>
+        <!-- this is by default when particular pixel length got found then this image will shoen on screen -->
+
+        <img src="refer.jpg" alt="no found">
+     </picture>
+
+     <!-- An image map generation -->
+       <!-- use image to map code generation websites this use for make maps in an image means that when we use different part of our mage then diffenrent work will be done -->
+       <!-- generate this code through google sites -->
+
+       <img src="refer.jpg" usemap="#image-map">
+       <map name="image-map">
+        <area onclick="one()" coords="" href="" alt="">
+       </map>
+       <!-- then we use js for apply different work from diff part of image -->
+        <script>
+            function one(){
+                aletre("you click on one")
+            }
+        </script>
+</body>
+</html>
